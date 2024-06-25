@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Inventario.COMMON.Entidades
 {
-    public class Employee
+    public class Employee:Base 
     {
+        public string Code { set; get; }       
         public string Name { get; set; }
         public string Lastname { get; set; }
         public string Area { get; set; }

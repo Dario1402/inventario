@@ -6,15 +6,13 @@ using System.Threading.Tasks;
 
 namespace Inventario.COMMON.Entidades
 {
-    internal class Product
+    internal class Product:Base 
     {
-        public int cod { get; set; }
-        public int codbar { get; set; }
-        public string name { get; set; }
-        public string category { get; set; }
-        public float precio { get; set; }
-
-
-
+        public int Cod { get; set; }
+        public int Codbar { get; set; }
+        public string Name { get; set; }
+        public string Category { get; set; }
+        public float Price { get; set; }
+       
     }
 }

@@ -11,7 +11,6 @@ using System.Threading.Tasks;
 namespace Inventario.DAL
 {
     internal class RepositoryEmployee : IRepository<Employee>
-
     {
         public List<Employee> Read => throw new NotImplementedException();
 
@@ -20,12 +19,12 @@ namespace Inventario.DAL
             throw new NotImplementedException();
         }
 
-        public bool delete(Employee entity)
+        public bool Delete(Employee entity)
         {
             throw new NotImplementedException();
         }
 
-        public bool update(Employee entity)
+        public bool Update(int Id, Employee entityModify)
         {
             throw new NotImplementedException();
         }
