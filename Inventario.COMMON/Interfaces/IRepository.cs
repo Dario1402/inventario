@@ -11,8 +11,8 @@ namespace Inventario.COMMON.Interfaces
     {
         bool Create(T entity);
         List<T> Read { get; }
-        bool Update(int Id, T entityModify);
-        bool Delete(T entity);
+        bool Update(string Id, T entityModify);
+        bool Delete(string id, T entity);
 
     }
 }

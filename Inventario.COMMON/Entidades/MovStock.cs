@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Inventario.COMMON.Entidades
 {
-    internal class MovStock:Base 
+    public class MovStock:Base 
     {
         public DateTime DaTime { get; set; }
-        public Employee Carry { get; set; }
-        public List<Product> MaterialModify { get; set; }
+        public Employee? Carry { get; set; }
+        public List<Product>? MaterialModify { get; set; }
     }
 }
