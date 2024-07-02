@@ -1,6 +1,4 @@
-﻿
-
-using Inventario.COMMON.Entidades;
+﻿using Inventario.COMMON.Entidades;
 using Inventario.COMMON.Interfaces;
 using LiteDB;
 using System;
@@ -15,7 +13,7 @@ namespace Inventario.DAL
     internal class RepositoryEmployee : IRepository<Employee>
     {
         private string DBName = "Inventario.db";
-        private string TableName = "Empleados";
+        private string TableName = "Employee";
 
         public List<Employee> Read {
             get
