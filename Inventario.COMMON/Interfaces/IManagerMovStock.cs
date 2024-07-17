@@ -9,5 +9,10 @@ namespace Inventario.COMMON.Interfaces
 {
     public interface IManagerMovStock:IManager<MovStock>
     {
+        List<MovStock> ToListMovStocks();
+        List<MovStock> TolistInterval(DateTime ini, DateTime end);
+
+
+         
     }
 }

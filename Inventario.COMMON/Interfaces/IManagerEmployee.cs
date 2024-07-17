@@ -9,5 +9,9 @@ namespace Inventario.COMMON.Interfaces
 {
     public interface IManagerEmployee:IManager<Employee>
     {
+        List<Employee> ToListEmployee();
+
+        List<Employee> ToListEmployee(string area);
+
     }
 }

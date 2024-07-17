@@ -9,6 +9,8 @@ namespace Inventario.COMMON.Interfaces
 {
     public interface IManagerProduct:IManager<Product>
     {
+        List<Product> ToListProductCategory(string categoria);
 
+        List<Product> ToListProductCategory();
     }
 }
